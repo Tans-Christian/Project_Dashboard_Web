@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($password === $user['password']) {
       echo "<script>
               alert('Login berhasil! Selamat datang " . $user['name'] . "');
-              window.location.href = 'dashboard.php';
+              window.location.href = 'index/index.html';
             </script>";
       exit();
     } else {
